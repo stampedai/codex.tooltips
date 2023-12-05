@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codex-team/codex.tooltips"
+    "url": "git+https://github.com/stampedai/codex.tooltips"
   },
   "bugs": {
     "url": "https://github.com/codex-team/codex.tooltips/issues"

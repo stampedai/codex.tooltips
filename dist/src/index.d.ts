@@ -1,4 +1,5 @@
 import { TooltipContent, TooltipOptions } from '../types';
+export { TooltipContent, TooltipOptions };
 /**
  *
  * Tiny any beautiful tooltips module.
@@ -49,8 +50,10 @@ export default class Tooltip {
     private hidingTimeout;
     /**
      * Module constructor
+     *
+     * @param {string} nonce - The nonce to apply to the injected styles.
      */
-    constructor();
+    constructor(nonce?: string);
     /**
      * Show Tooltip near passed element with specified HTML content
      *
@@ -86,6 +89,8 @@ export default class Tooltip {
     private prepare;
     /**
      * Append CSS file
+     *
+     * @param {string} nonce - The nonce to apply to the injected styles.
      */
     private loadStyles;
     /**
